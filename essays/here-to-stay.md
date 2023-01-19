@@ -9,7 +9,7 @@ labels:
   - Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
+<img width="200px" class="rounded float-start pe-4" src="../img/javascript-logo.png">
 
 *Javascript has turned into a monster, but is it already too late...*
 
