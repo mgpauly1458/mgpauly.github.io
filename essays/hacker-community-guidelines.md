@@ -18,13 +18,17 @@ The typical transaction on these forums go as follows: A member asks a question 
   
 ## Smart Question
 <img width="600px" class="rounded float-start pe-4" src="../img/smartQuestion.png">
+<br>
 [Question Link](https://stackoverflow.com/questions/427102/what-is-a-slug-in-django?rq=1)
+<br>
 
 This is an example of a good question. This is a theoretical and intuitive question which I think is a great question to ask people with experience (and apparently the community does too, upvoting it 747 times). Design decisions can’t be found in the manuals and depending how niece, can’t be found in textbooks either. It is great to ask the pros “I know how this is done, but why do you do it, and why wouldn’t you do it”? Additionally, the title is short and concise and conveys what the person is asking. The question itself gets straight to the point and asks with a “what does this feature do for us developers and consumers” tone. He also clearly states his level of understanding by linking the Django definition of “Slug”. This shows he did some background research in the appropriate place: the manuals, and has still come short of an answer to his question. I would personally give this question a thumbs up, because I remember learning about slugs and didn’t understand why they’re more beneficial to use versus an integer in the URL that is merely incremented. There are user readability and security reasons they are used to generate dynamic webpages, which is not immediately evident for beginner web developers.
   
 ## Not Smart Question
 <img width="600px" class="rounded float-start pe-4" src="../img/notSmartQuestion.png">
+<br>
 [Question Link](https://stackoverflow.com/questions/75255286/django-adding-to-cart-functionality)
+<br>
 
 This is an example of a bad question. I found it in the recent questions, and just by looking at it there are some aspects that Raymond would find troubling. First off, the title sucks. “Adding to cart functionality” does not concisely portray the problem and is much too vague. Secondly, the question itself has way too much text. The user does summarize their question to a debatably acceptable level in the actual post (trust me I’m the authority here, I have 214 reputation points), but then proceeds to post three long pages of code instead of a “minimal test case”. A minimal test case is an illustration of the problem, just enough code to exhibit the undesirable behavior and no more. This crazy lunatic is clogging up the form with his console.log statements. Now that is just plain lazy (but hey what do you expect, the user only has 1 “reputation” point and is a “new contributor”). Thirdly, I would like to mark him down on the simplicity of the actual question. He is essentially asking how to pass data from the front-end using javascript, to the back-end (which uses python). This is a very common procedure and Django (the web framework he is using) has some of the best documentation out of any framework I’ve ever seen. I know for a fact some web surfing and document surfing would find him the answer. This is not an original problem that warrants a blog post on stackoverflow. RTFM. STFW.
 
