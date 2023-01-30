@@ -2,13 +2,13 @@
 layout: project
 type: project
 image: https://user-images.githubusercontent.com/74911365/154952499-8de579a1-1ae2-45ea-b541-61a832515775.png
-title: "Cotton"
-date: 2014
+title: "Alaka'i Trail Directory (Hackathon)"
+date: 2021
 published: true
 labels:
   - Lisp
   - GitHub
-summary: "A text adventure game that I developed for ICS 313."
+summary: "A submission to the Hawaii Annual Coding Challenge 2021 that helped the Department of Land and Natural Resources track the number of people on their hiking trails."
 ---
 
 <img class="img-fluid" src="https://user-images.githubusercontent.com/74911365/154952499-8de579a1-1ae2-45ea-b541-61a832515775.png">
