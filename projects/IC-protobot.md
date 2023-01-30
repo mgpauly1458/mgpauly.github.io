@@ -31,7 +31,7 @@ Picture of the robot currently used for prototyping:
 
 ROS is an open source robotics middleware suite and is the premier framework for robotic rapid prototyping. The [ROS wiki](https://www.ros.org/) is an outstanding resource to learn more so I won't go into detail here. The project uses ROS for the majority of the robot's communication between components and functionality. Each software developer on the project completed the [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials) and below is a demonstration of ROS nodes talking to one another and executing commands.
 
-
+![ROS](https://user-images.githubusercontent.com/74911365/215602370-4be5e4c6-003c-4562-8e9f-1727dc4e03e1.png)
 <!-- <video src="https://user-images.githubusercontent.com/74911365/154920396-d8579ff4-1784-4360-8b3e-b7f285558c4d.mp4"/>
  -->
 
@@ -51,6 +51,7 @@ A GUI is needed to contorl the robot and subsequently compete in the URC competi
 The latest GUI prototype can display video output, and topic data. The up and down arrows are pressed on the keyboard and which sends velocity commands to ROS, which can be seen at the bottom of the display.
 <br> -->
 
+![GUI](https://user-images.githubusercontent.com/74911365/215602445-fcd4c945-b702-40a0-b81f-17ec391188f2.png)
 
 <!-- <video src="https://user-images.githubusercontent.com/74911365/154946249-04c9510b-1193-423e-aa36-a8eb3eec0615.mp4"/>
  -->
@@ -70,30 +71,4 @@ A 'roboclaw' object was created using C++ which acts as the bridge between the l
 
 <!-- (video of ros sending and recieving data and turning the wheels) -->
 
-## Installation
-
-### Dependencies
-
-##### sudo apt update
-##### sudo apt upgrade
-##### sudo apt-get install ros-noetic-rosbridge-suite ros-noetic-rosbridge-server nodejs npm
-
-### Getting Started:
-
-#### Terminal 1 (runs ros core through the rosbridge (web socket package) launch file):
-cd catkin_ws
-source devel/setup.bash
-roslaunch rosbridge_server rosbridge_websocket.launch
-
-#### Terminal 2 (runs the package I made that listens to /score topic which uses std_msgs/Int64 messages):
-cd catkin_ws
-source devel/setup.bash
-rosrun listener_package score_listener
-
-#### Terminal 3 (runs the web app):
-cd webapp
-npm install
-npm run dev
-
-#### Web Browser:
-http://localhost:3000 -->
+![guiPROTO](https://user-images.githubusercontent.com/74911365/215602528-64ee7324-53b2-4252-b495-4d9adfbabced.png)
