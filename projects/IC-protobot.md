@@ -45,20 +45,21 @@ A basic gazebo simulation with a turtlebot and obstacles. The turtlebot is using
 
 
 ## Web App Graphical User Interface (GUI)
-A GUI is needed to contorl the robot and subsequently compete in the URC competition. The stack begins with a simple web app which interfaces with the ROS network via a web socket. Commands are transferred wirelessly using 802.11 WiFi and the HTTP protocol. The web server was made using Node.js and Express (<a href="https://github.com/anotheruser1458/IC_protobot/blob/main/web_app/server.js">source</a>). The data is displayed to the operator using html/css/javascript (<a href="https://github.com/anotheruser1458/IC_protobot/tree/main/web_app/public/js">source</a>). The video below shows a demo of the latest prototype where a video feed and three topics are displayed on the homepage. 
+A GUI is needed to contorl the robot and subsequently compete in the URC competition. The stack begins with a simple web app which interfaces with the ROS network via a web socket. Commands are transferred wirelessly using 802.11 WiFi and the HTTP protocol. The web server was made using Node.js and Express (<a href="https://github.com/anotheruser1458/IC_protobot/blob/main/web_app/server.js">source</a>). The data is displayed to the operator using html/css/javascript (<a href="https://github.com/anotheruser1458/IC_protobot/tree/main/web_app/public/js">source</a>). 
+<!-- The video below shows a demo of the latest prototype where a video feed and three topics are displayed on the homepage. 
 <br>
 The latest GUI prototype can display video output, and topic data. The up and down arrows are pressed on the keyboard and which sends velocity commands to ROS, which can be seen at the bottom of the display.
-<br>
+<br> -->
 
 
-<video src="https://user-images.githubusercontent.com/74911365/154946249-04c9510b-1193-423e-aa36-a8eb3eec0615.mp4"/>
+<!-- <video src="https://user-images.githubusercontent.com/74911365/154946249-04c9510b-1193-423e-aa36-a8eb3eec0615.mp4"/>
+ -->
 
+<!-- An earlier prototype, text input in an html form is sent to the ROS network and broadcasted by a node.
 
-An earlier prototype, text input in an html form is sent to the ROS network and broadcasted by a node.
-
-
-<video src="https://user-images.githubusercontent.com/74911365/140019513-80895195-2fa0-49e1-8030-edcdf03711ba.mp4"/>
-
+ -->
+<!-- <video src="https://user-images.githubusercontent.com/74911365/140019513-80895195-2fa0-49e1-8030-edcdf03711ba.mp4"/>
+ -->
 
 ## Motor Encoders
 
@@ -67,7 +68,7 @@ The robot uses ten motors: six for forward and backward acceleration and four fo
 
 A 'roboclaw' object was created using C++ which acts as the bridge between the linux serial ports and the actual encoders ([source](https://github.com/anotheruser1458/IC_protobot/blob/main/catkin_ws/src/protobot/src/protobot_control/src/roboclaw.cpp)). This object is used by the ROS node ([source](https://github.com/anotheruser1458/IC_protobot/blob/main/catkin_ws/src/protobot/src/protobot_control/src/protobot.cpp)) to properly send and recieve data and control when the wheels spin.
 
-(video of ros sending and recieving data and turning the wheels)
+<!-- (video of ros sending and recieving data and turning the wheels) -->
 
 ## Installation
 
