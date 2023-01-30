@@ -42,6 +42,10 @@ Gazebo is a suite of simulation software that communicates quite nicely with ROS
 A basic gazebo simulation with a turtlebot and obstacles. The turtlebot is using it's simulated laser scanner and a simple obstacle avoidance algorithm to wander around obstacles.
 ![gazeboBasics](https://user-images.githubusercontent.com/74911365/155137434-49c81e47-bed8-485f-a7df-9dd46aa74114.png)
 
+## Simulating Rover Communication
+Below is an image of various ros nodes running, necessary to enable the ros network to communicate with the web based frontend. Here the pilot of the rover can pass data through the web browser, which is recieved through a web socket on a ros node. This is a simple integration test which merely displays the data passed over the browser.
+
+![guiPROTO](https://user-images.githubusercontent.com/74911365/215602528-64ee7324-53b2-4252-b495-4d9adfbabced.png)
 
 
 ## Web App Graphical User Interface (GUI)
@@ -70,5 +74,3 @@ The robot uses ten motors: six for forward and backward acceleration and four fo
 A 'roboclaw' object was created using C++ which acts as the bridge between the linux serial ports and the actual encoders ([source](https://github.com/anotheruser1458/IC_protobot/blob/main/catkin_ws/src/protobot/src/protobot_control/src/roboclaw.cpp)). This object is used by the ROS node ([source](https://github.com/anotheruser1458/IC_protobot/blob/main/catkin_ws/src/protobot/src/protobot_control/src/protobot.cpp)) to properly send and recieve data and control when the wheels spin.
 
 <!-- (video of ros sending and recieving data and turning the wheels) -->
-
-![guiPROTO](https://user-images.githubusercontent.com/74911365/215602528-64ee7324-53b2-4252-b495-4d9adfbabced.png)
