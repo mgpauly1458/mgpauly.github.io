@@ -11,8 +11,8 @@ labels:
 summary: "I was on a team (Robotic Space Exploration Team) that made a rover as an entry to the University Rover Challenge. I was on the Instrumentation & Control team and helped them design and implement all aspects of their frontend interface and frontend software to remotely contorl the rover."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
-
+<!-- <img class="img-fluid" src="../img/cotton/cotton-header.png">
+ -->
 # IC_protobot
 
 ## Overview
