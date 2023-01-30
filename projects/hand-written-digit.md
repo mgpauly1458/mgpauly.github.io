@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://user-images.githubusercontent.com/74911365/215585524-09bed3ca-9d22-44a5-be5e-6390098f55c8.png
+image: img/robo1.png
 title: "Hand Written Digit Recognition"
 date: 2021
 published: true
