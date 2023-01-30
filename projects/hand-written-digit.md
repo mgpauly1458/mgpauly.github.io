@@ -6,8 +6,11 @@ title: "Hand Written Digit Recognition"
 date: 2021
 published: true
 labels:
-  - Lisp
-  - GitHub
+  - Django
+  - TensorFlow
+  - Google Cloud Platform
+  - Heroku
+  - Deep Learning
 summary: "A neural network that can identify hand written digits that I trained, uploaded to the cloud, and created a website frontend to interact with it."
 ---
 
