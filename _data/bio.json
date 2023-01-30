@@ -1,18 +1,16 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Maxwell Pauly",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "picture": "https://github.com/mgpauly1458.png",
+    "email": "mgpauly@hawaii.edu",
+    "phone": "808-372-6757",
+    "website": "https://mgpauly1458.github.io",
+    "summary": "Computer Engineer B.S. '24 M.S. '25, focus in machine learning, computer architecture, processor and hardware design, performance engineering of software systems, robotic automation. My dream is to start a company so I'm considering a JD/MBA degree after graduating, but the Artificial Intelligence revolution is already here. Maybe I'll have to start a company out of grad school, or join a really cool startup.",
+    "location": { "address": "435 Seaside Ave.", "postalCode": "96815", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "mgpauly1458", "url": "http://github.com/mgpauly1458" },
+      { "network": "linkedin", "username": "Maxwell Pauly", "url": "https://www.linkedin.com/in/maxwellpauly/" }
     ]
   },
   "interests": [
