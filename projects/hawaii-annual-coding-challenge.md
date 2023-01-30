@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: https://user-images.githubusercontent.com/74911365/154952499-8de579a1-1ae2-45ea-b541-61a832515775.png
 title: "Cotton"
 date: 2014
 published: true
@@ -15,11 +15,10 @@ summary: "A text adventure game that I developed for ICS 313."
 
 # Alaka'i Trail Directory
 A web application that allows state officials and the general public to monitor the foot-traffic density on any of Hawaii's hiking trails. This was our team's entry to the [Hawaii Annual Coding Challenge](https://hacc.hawaii.gov) (HACC) 2021, which got us invited to the finalist day where we presented the project to judges and an audience. Also, check out our [Devpost](https://devpost.com/software/rose-luiwyo).
-|  |The Team|  |
-|--|--------|--|
-|<img src="https://user-images.githubusercontent.com/74911365/154952499-8de579a1-1ae2-45ea-b541-61a832515775.png" width="700">|<img src="https://user-images.githubusercontent.com/74911365/155088337-48d6e84c-b438-417f-b28c-85c78955bca5.jpg" width="700">|<img src="https://user-images.githubusercontent.com/74911365/154952551-95a0dd5d-8de4-4a0d-9539-fd2e8f1870d5.png" width="700">|
 
-https://user-images.githubusercontent.com/74911365/155099216-c10141d7-d22f-43de-8fc4-139cb811a7c3.mp4
+<img src="https://user-images.githubusercontent.com/74911365/154952551-95a0dd5d-8de4-4a0d-9539-fd2e8f1870d5.png" width="700">
+
+<video src="https://user-images.githubusercontent.com/74911365/155099216-c10141d7-d22f-43de-8fc4-139cb811a7c3.mp4"/>
 
 # Contents
 - [Trail Catalog](#trail-catalog)
@@ -48,9 +47,7 @@ Clicking on a trail's card reveals details about the hike like the route descrip
 # Safety & Etiquette
 Hiking can be dangerous, especially for people who have not hiked on Hawaii's trails before. Our app has a page dedicated to explaining the Department of Land and Natural Resources' (DLNR) safety guidlines and best practices for hiking on their trails.
 <br><br>
-|Safety Guidelines| |
-|-----------------|-|
-|<img src="https://user-images.githubusercontent.com/74911365/155108663-3d514da6-0dd4-4b95-867d-ddd21a8ee8e3.png" width="700">|<img src="https://user-images.githubusercontent.com/74911365/155108746-1006a31c-0a1c-41e1-a6a2-983cfe423bbe.png" width="500">|
+<img src="https://user-images.githubusercontent.com/74911365/155108663-3d514da6-0dd4-4b95-867d-ddd21a8ee8e3.png" width="700">
 
 # Traffic Information
 A user first picks the day and time they wish to hike which automatically updates the trail colors on the map based on an algorithm that combines predicted traffic data and reservation data stored in the app's database. This helps people spread out and not plan their hike on a trail that is predicted to have a busy day. 
@@ -105,5 +102,5 @@ This demo shows a user using every feature on the site. They create an account, 
 
 
 
-https://user-images.githubusercontent.com/74911365/155118422-12c5eb80-c14a-446d-b597-3b0165f8d34b.mp4
+<video src="https://user-images.githubusercontent.com/74911365/155118422-12c5eb80-c14a-446d-b597-3b0165f8d34b.mp4"/>
 
