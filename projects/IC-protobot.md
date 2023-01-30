@@ -25,13 +25,14 @@ Contributors: Maxwell Pauly, Bret Witt, Ashten Akemoto, Jacob Sequeira, Jeraldin
 
 Picture of the robot currently used for prototyping:
 <br>
-![image](https://user-images.githubusercontent.com/74911365/155123497-79ac5871-d912-4ee8-9e1f-668debe898f1.png)
+<img src="https://user-images.githubusercontent.com/74911365/155123497-79ac5871-d912-4ee8-9e1f-668debe898f1.png" style="width:1000px;"/>
 
 ## Robot Operating System (ROS)
 
 ROS is an open source robotics middleware suite and is the premier framework for robotic rapid prototyping. The [ROS wiki](https://www.ros.org/) is an outstanding resource to learn more so I won't go into detail here. The project uses ROS for the majority of the robot's communication between components and functionality. Each software developer on the project completed the [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials) and below is a demonstration of ROS nodes talking to one another and executing commands.
 
-![ROS](https://user-images.githubusercontent.com/74911365/215602370-4be5e4c6-003c-4562-8e9f-1727dc4e03e1.png)
+
+<img src="https://user-images.githubusercontent.com/74911365/215602370-4be5e4c6-003c-4562-8e9f-1727dc4e03e1.png" style="width:1000px;"/>
 <!-- <video src="https://user-images.githubusercontent.com/74911365/154920396-d8579ff4-1784-4360-8b3e-b7f285558c4d.mp4"/>
  -->
 
@@ -40,12 +41,12 @@ ROS is an open source robotics middleware suite and is the premier framework for
 Gazebo is a suite of simulation software that communicates quite nicely with ROS. The team religiously uses gazebo to simulate all prototyped software and hardware dimensions before any fabrication takes place.
 
 A basic gazebo simulation with a turtlebot and obstacles. The turtlebot is using it's simulated laser scanner and a simple obstacle avoidance algorithm to wander around obstacles.
-![gazeboBasics](https://user-images.githubusercontent.com/74911365/155137434-49c81e47-bed8-485f-a7df-9dd46aa74114.png)
+<img src="https://user-images.githubusercontent.com/74911365/155137434-49c81e47-bed8-485f-a7df-9dd46aa74114.png" style="width:1000px;"/>
 
 ## Simulating Rover Communication
 Below is an image of various ros nodes running, necessary to enable the ros network to communicate with the web based frontend. Here the pilot of the rover can pass data through the web browser, which is recieved through a web socket on a ros node. This is a simple integration test which merely displays the data passed over the browser.
 
-![guiPROTO](https://user-images.githubusercontent.com/74911365/215602528-64ee7324-53b2-4252-b495-4d9adfbabced.png)
+<img src="https://user-images.githubusercontent.com/74911365/215602528-64ee7324-53b2-4252-b495-4d9adfbabced.png" style="width:1000px;"/>
 
 
 ## Web App Graphical User Interface (GUI)
@@ -55,7 +56,7 @@ A GUI is needed to contorl the robot and subsequently compete in the URC competi
 The latest GUI prototype can display video output, and topic data. The up and down arrows are pressed on the keyboard and which sends velocity commands to ROS, which can be seen at the bottom of the display.
 <br> -->
 
-![GUI](https://user-images.githubusercontent.com/74911365/215602445-fcd4c945-b702-40a0-b81f-17ec391188f2.png)
+<img src="https://user-images.githubusercontent.com/74911365/215602445-fcd4c945-b702-40a0-b81f-17ec391188f2.png" style="width:1000px;"/>
 
 <!-- <video src="https://user-images.githubusercontent.com/74911365/154946249-04c9510b-1193-423e-aa36-a8eb3eec0615.mp4"/>
  -->
