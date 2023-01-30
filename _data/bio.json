@@ -14,16 +14,16 @@
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
+    { "name": "Deep Learning" },
+    { "name": "Logic Design" },
+    { "name": "Performance Engineering" },
     { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Business" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Django", "Node.js", "Python" ]
     },
     {
       "name": "Toolsets/OS",
@@ -33,10 +33,10 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Engineering (expected Spring, 2024)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
+      "startDate": "2021-08-21",
+      "endDate": "2024-05-12",
       "courses": [
       ]
     }
