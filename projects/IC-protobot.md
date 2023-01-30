@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://user-images.githubusercontent.com/74911365/155123497-79ac5871-d912-4ee8-9e1f-668debe898f1.png
+image: img/rover1.png
 title: "Instrumentation & Control Protobot"
 date: 2021
 published: true
