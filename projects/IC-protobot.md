@@ -6,8 +6,10 @@ title: "Instrumentation & Control Protobot"
 date: 2021
 published: true
 labels:
-  - Lisp
-  - GitHub
+  - ROS
+  - Roslib.js
+  - Express.js
+  - React
 summary: "I was on a team (Robotic Space Exploration Team) that made a rover as an entry to the University Rover Challenge. I was on the Instrumentation & Control team and helped them design and implement all aspects of their frontend interface and frontend software to remotely contorl the rover."
 ---
 
