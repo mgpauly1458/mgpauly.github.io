@@ -23,8 +23,8 @@ A web application that allows state officials and the general public to monitor 
 
 <img src="https://user-images.githubusercontent.com/74911365/154952551-95a0dd5d-8de4-4a0d-9539-fd2e8f1870d5.png" width="700">
 
-<video src="https://user-images.githubusercontent.com/74911365/155099216-c10141d7-d22f-43de-8fc4-139cb811a7c3.mp4"/>
-
+<!-- <video src="https://user-images.githubusercontent.com/74911365/155099216-c10141d7-d22f-43de-8fc4-139cb811a7c3.mp4"/>
+ -->
 # Contents
 - [Trail Catalog](#trail-catalog)
 - [Safety & Etiquette](#safety---etiquette)
@@ -107,5 +107,5 @@ This demo shows a user using every feature on the site. They create an account, 
 
 
 
-<video src="https://user-images.githubusercontent.com/74911365/155118422-12c5eb80-c14a-446d-b597-3b0165f8d34b.mp4"/>
-
+<!-- <video src="https://user-images.githubusercontent.com/74911365/155118422-12c5eb80-c14a-446d-b597-3b0165f8d34b.mp4"/>
+ -->
