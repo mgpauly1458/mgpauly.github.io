@@ -25,7 +25,7 @@ Contributors: Maxwell Pauly, Bret Witt, Ashten Akemoto, Jacob Sequeira, Jeraldin
 
 Picture of the robot currently used for prototyping:
 <br>
-<img src="https://user-images.githubusercontent.com/74911365/155123497-79ac5871-d912-4ee8-9e1f-668debe898f1.png" style="width:1000px;"/>
+<img src="https://user-images.githubusercontent.com/74911365/155123497-79ac5871-d912-4ee8-9e1f-668debe898f1.png" style="width:500px;"/>
 
 ## Robot Operating System (ROS)
 
