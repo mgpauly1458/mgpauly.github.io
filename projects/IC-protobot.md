@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/rover1.png
+image: img/robo1.png
 title: "Instrumentation & Control Protobot"
 date: 2021
 published: true
