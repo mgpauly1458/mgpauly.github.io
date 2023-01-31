@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/robo1.png
+image: img/rover1.png
 title: "Hand Written Digit Recognition"
 date: 2021
 published: true
