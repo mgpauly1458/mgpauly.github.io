@@ -23,11 +23,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Django", "Node.js", "Python" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Django", "Node.js", "Python", "System Verilog" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "Linux", "Git/GitHub", "g++", "Clang", "Django", "Node.js", "ROS", "Valgrind", "Javascript", "AWS", "Google Cloud Platform" ]
     }
   ],
   "education": [
@@ -37,7 +37,7 @@
       "studyType": "B.S.",
       "startDate": "2021-08-21",
       "endDate": "2024-05-12",
-      "courses": [
+      "courses": [ "EE160 Programming for Engineers", "EE205 Object Oriented Programming", "EE260 Introduction to Digital Design", "EE361 Computer and Digital System Design", "EE367 Data Structures and Algorithms", "EE314 Software Engineering", "EE362 Discrete Math"
       ]
     }
   ],
