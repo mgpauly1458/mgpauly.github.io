@@ -12,7 +12,7 @@ labels:
   - Entrepreneur
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/javascript-logo.png">
+<img width="200px" class="rounded float-start pe-4" src="https://user-images.githubusercontent.com/74911365/216299102-b957cbe8-c6e5-436c-9d8e-fe8aea4190fa.png">
 
 *The AI revolution is here...*
 
