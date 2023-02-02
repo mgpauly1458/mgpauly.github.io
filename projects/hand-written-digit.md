@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/rover1.png
+image: img/robo1.png
 title: "Hand Written Digit Recognition"
 date: 2021
 published: true
@@ -17,7 +17,7 @@ summary: "A neural network that can identify hand written digits that I trained,
 <img class="img-fluid" src="https://user-images.githubusercontent.com/74911365/215585524-09bed3ca-9d22-44a5-be5e-6390098f55c8.png">
 
 # Handwritten Digit TensorFlow Web Application
-This is a personal project which involved training a TensorFlow neural network to recognize hand written digits, deploying the model to the cloud, and creating a frontend user interface which allows people to draw their own digits with a mouse and recieve the model's prediction of what digit it thinks it sees (0-9). 
+This is a personal project which I am the sole contributor. It's creation involved training a TensorFlow neural network to recognize hand written digits, deploying the model to the cloud, and creating a frontend user interface which allows people to draw their own digits with a mouse and recieve the model's prediction of what digit it thinks it sees (0-9). 
 
 # Contents
 - [Usage](#usage)
