@@ -12,7 +12,7 @@ labels:
   - Forms
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/stackLogo.png">
+<img width="150px" class="rounded float-start pe-4" src="../img/stackLogo.png">
 
 “How To Ask Questions The Smart Way” by Eric Steven Raymond are unwritten community guidelines for hackers. These are not specific rules to any one forum, but more a collective attitude hackers have towards one another and the standards they hold members in their community to. This was a great perspective to learn about, and will serve me well as a software developer. Although not a seasoned hacker, I will participate in these communities asking for assistance in my projects. Abiding by the guidelines asserted by Raymond will surely allow me to maximize the use I get from these forums, and minimize the unease experienced when the rules aren’t followed.
 
