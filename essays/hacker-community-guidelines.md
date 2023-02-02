@@ -6,8 +6,10 @@ title: "Hacker Community Guidelines"
 date: 2023-01-26
 published: true
 labels:
+  - Hackers
+  - Smart Questions
   - Software Engineering
-  - Learning
+  - Forms
 ---
 
 <img width="300px" class="rounded float-start pe-4" src="../img/stackLogo.png">
