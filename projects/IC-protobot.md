@@ -38,7 +38,8 @@ ROS is an open source robotics middleware suite and is the premier framework for
 ## Gazebo Simulation
 Gazebo is a suite of simulation software that communicates quite nicely with ROS. The team religiously uses gazebo to simulate all prototyped software and hardware dimensions before any fabrication takes place.
 
-A basic gazebo simulation with a turtlebot and obstacles. The turtlebot is using it's simulated laser scanner and a simple obstacle avoidance algorithm to wander around obstacles.
+A basic gazebo simulation with a turtlebot and obstacles. The turtlebot is using it's simulated laser scanner and a simple obstacle avoidance algorithm to wander around.
+
 <img src="https://user-images.githubusercontent.com/74911365/155137434-49c81e47-bed8-485f-a7df-9dd46aa74114.png" style="width:1000px;"/>
 
 ## Simulating Rover Communication
@@ -48,7 +49,7 @@ Below is an image of various ros nodes running, necessary to enable the ros netw
 
 
 ## Web App Graphical User Interface (GUI)
-A GUI is needed to contorl the robot and subsequently compete in the URC competition. The stack begins with a simple web app which interfaces with the ROS network via a web socket. Commands are transferred wirelessly using 802.11 WiFi and the HTTP protocol. The web server was made using Node.js and Express (<a href="https://github.com/anotheruser1458/IC_protobot/blob/main/web_app/server.js">source</a>). The data is displayed to the operator using html/css/javascript (<a href="https://github.com/anotheruser1458/IC_protobot/tree/main/web_app/public/js">source</a>). 
+A GUI is needed to control the robot and subsequently compete in the URC competition. The stack begins with a simple web app which interfaces with the ROS network via a web socket. Commands are transferred wirelessly using 802.11 WiFi and the HTTP protocol. The web server was made using Node.js and Express (<a href="https://github.com/anotheruser1458/IC_protobot/blob/main/web_app/server.js">source</a>). The data is displayed to the operator using html/css/javascript (<a href="https://github.com/anotheruser1458/IC_protobot/tree/main/web_app/public/js">source</a>). 
 <!-- The video below shows a demo of the latest prototype where a video feed and three topics are displayed on the homepage. 
 <br>
 The latest GUI prototype can display video output, and topic data. The up and down arrows are pressed on the keyboard and which sends velocity commands to ROS, which can be seen at the bottom of the display.
