@@ -14,6 +14,8 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/stackLogo.png">
 
+*READ THE MAN PAGES*
+
 “How To Ask Questions The Smart Way” by Eric Steven Raymond are unwritten community guidelines for hackers. These are not specific rules to any one forum, but more a collective attitude hackers have towards one another and the standards they hold members in their community to. This was a great perspective to learn about, and will serve me well as a software developer. Although not a seasoned hacker, I will participate in these communities asking for assistance in my projects. Abiding by the guidelines asserted by Raymond will surely allow me to maximize the use I get from these forums, and minimize the unease experienced when the rules aren’t followed.
 
 The typical transaction on these forums go as follows: A member asks a question to the open public. Depending on the validity, potential outreach, and weight of the question you may entice a subject matter expert browsing the forum to offer his assistance. The likeliness of a member getting their question answered is drastically increased if it is asked in a “smart” manner. “Smart questions” are the topic of Raymond’s article. He explains how to ask a question the “smart way” and the “not smart way”. The difference between the two can leave a hacker “grateful and excited for an interesting question to chew on” or “reacting as if a pile of steaming pig manure was dumped on their door”, as Raymond puts it.
