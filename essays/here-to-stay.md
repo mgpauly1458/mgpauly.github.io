@@ -6,7 +6,9 @@ title: "Javascript Is Here To Stay"
 date: 2023-01-18
 published: true
 labels:
-  - Engineering
+  - Javascript
+  - Language Features
+  - Personal Opinion
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/javascript-logo.png">
