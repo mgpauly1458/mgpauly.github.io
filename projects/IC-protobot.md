@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/robo1.png
+image: img/rover1.png
 title: "Instrumentation & Control Protobot"
 date: 2021
 published: true
@@ -19,9 +19,7 @@ summary: "I was on a team (Robotic Space Exploration Team) that made a rover as 
 
 ## Overview
 
-This is a clone of the shared project repository made by the members of the [University of Hawaii Robotic Space Exploration Team](https://manoa.hawaii.edu/uh-vip/project/robotic-space-exploration-rose-vip/). Our team's goal is to creat a six wheeled robot that can drive, operate a manipulator arm, detect life, and autonomously navigate which we will officially enter into the [University Rover Challenge](https://urc.marssociety.org/home), June 2022. This repository contains the software module prototypes which we worked diligently on in order to prove the architectural concepts laid out in our [Critical Design Review](https://drive.google.com/file/d/1HtWLiNnQ40CGxhcs-scGmpD602fTRI0W/view?usp=sharing).
-
-Contributors: Maxwell Pauly, Bret Witt, Ashten Akemoto, Jacob Sequeira, Jeraldine Milla, Stephanie Alemore, and Zolbo Tomita.
+Our team's goal is to creat a six wheeled robot that can drive, operate a manipulator arm, detect life, and autonomously navigate. We will officially enter the robot into the [University Rover Challenge](https://urc.marssociety.org/home), June 2022. This write up covers the content I contributed and the tools and frameworks I implemented the design with. The team's critical design review can be found here: [Critical Design Review](https://drive.google.com/file/d/1HtWLiNnQ40CGxhcs-scGmpD602fTRI0W/view?usp=sharing).
 
 Picture of the robot currently used for prototyping:
 <br>
@@ -69,7 +67,7 @@ The latest GUI prototype can display video output, and topic data. The up and do
 
 ## Motor Encoders
 
-The robot uses ten motors: six for forward and backward acceleration and four for steering the wheels left and right. We are using [Roboclaw](https://www.pololu.com/product/3284) motor encoders which communicate over serial ports. 
+The robot uses ten motors: six for forward and backward acceleration and four for steering the wheels left and right. I used [Roboclaw](https://www.pololu.com/product/3284) motor encoders which communicate over serial ports. 
 
 
 A 'roboclaw' object was created using C++ which acts as the bridge between the linux serial ports and the actual encoders ([source](https://github.com/anotheruser1458/IC_protobot/blob/main/catkin_ws/src/protobot/src/protobot_control/src/roboclaw.cpp)). This object is used by the ROS node ([source](https://github.com/anotheruser1458/IC_protobot/blob/main/catkin_ws/src/protobot/src/protobot_control/src/protobot.cpp)) to properly send and recieve data and control when the wheels spin.
