@@ -6,7 +6,10 @@ title: "Potential"
 date: 2023-01-31
 published: true
 labels:
-  - Engineering
+  - Software Engineering
+  - Machine Learning
+  - Artificial Intelligence
+  - Entrepreneur
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/javascript-logo.png">
