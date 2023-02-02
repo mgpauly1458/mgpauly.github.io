@@ -18,6 +18,9 @@ summary: "A submission to the Hawaii Annual Coding Challenge 2021 that helped th
 
 <img class="img-fluid" src="https://user-images.githubusercontent.com/74911365/154952499-8de579a1-1ae2-45ea-b541-61a832515775.png">
 
+# Overview
+I designed the backend and deployment plans for the project. Below are a list of features that I helped work on. For each feature, I was in charge of interpreting the requirements from the project stakeholder, finding suitable frameworks to meet the needs of the project, writing the code for the backend interface for the app's frontend features, and finding and implementing the cloud services necessary to deploy the design. The project was a success and our team made it to the finals day of the HACC 2021.
+
 # Alaka'i Trail Directory
 A web application that allows state officials and the general public to monitor the foot-traffic density on any of Hawaii's hiking trails. This was our team's entry to the [Hawaii Annual Coding Challenge](https://hacc.hawaii.gov) (HACC) 2021, which got us invited to the finalist day where we presented the project to judges and an audience. Also, check out our [Devpost](https://devpost.com/software/rose-luiwyo).
 
