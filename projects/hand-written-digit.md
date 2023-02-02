@@ -34,8 +34,8 @@ This is a personal project which I am the sole contributor. It's creation involv
 # Usage
 Use the mouse to draw a digit on the canvas and click submit. In a few seconds, the model's prediction of what digit it thinks you drew will pop up in a box at the top of the screen. Try it out [here](http://www.imageguesser.xyz/). <br>
 
-https://user-images.githubusercontent.com/74911365/155085753-2fee649c-0af6-4c8a-9d80-57072a31c1fc.mp4
-
+<!-- https://user-images.githubusercontent.com/74911365/155085753-2fee649c-0af6-4c8a-9d80-57072a31c1fc.mp4
+ -->
 # Model Training
 The tfTest folder contains all the code related to training and testing the model. Below are the steps I took to ensure the model worked properly before deploying it to the cloud.
 ## Training the Model
