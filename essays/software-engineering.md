@@ -14,9 +14,10 @@ labels:
 
 <img width="200px" class="rounded float-start pe-4" src="../img/javascript-logo.png">
 
-*Javascript has turned into a monster, but is it already too late...*
+*The AI revolution is here...*
 
-##Software Engineering
+
+## Software Engineering
 
 I really love coding. It speaks to me on sort of a personal level. I don’t like subjectivity, and coding is always discrete and always follows the laws of it’s technology stack. Nothing is left to interpretation. Either your program works or it doesn’t. Not many environments in the world are so absolute. I enjoy being a part of the software community because it feels like I have complete control of the work I do and the products I create.
 
