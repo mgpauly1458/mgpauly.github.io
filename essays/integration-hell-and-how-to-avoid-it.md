@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Integration Hell And How To Avoid It"
 # All dates must be YYYY-MM-DD format!
-date: 2023-01-18
+date: 2023-02-04
 published: true
 labels:
   - Integration Hell
