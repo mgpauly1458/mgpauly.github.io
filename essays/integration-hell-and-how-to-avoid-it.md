@@ -12,7 +12,7 @@ labels:
   - ESLint
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/mergeMeme.jpg">
+<img width="400px" class="rounded float-start pe-4" src="../img/mergeMeme.jpg">
 
 ## Game Changer
 
