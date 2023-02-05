@@ -16,7 +16,7 @@ labels:
 
 ## Game Changer
 
-After watching learning about version control, Integrated Development Environments, linting tools, and coding standards, I have a much better feel of what it means to develop software “correctly”. I’ve made a ton of little 50 lines or less projects, but I’ve never made a really big robust system that many developers contributed to. It feels like the concepts I listed above are a necessary prerequisite for any meaningful software project, and they should be embedded into any software engineer's brain.
+After learning more about version control, Integrated Development Environments, linting tools, and coding standards, I have a much better feel of what it means to develop software “correctly”. I’ve made a ton of little 50 lines or less projects, but I’ve never made a really big robust system that many developers contributed to. It feels like the concepts I listed above are a necessary prerequisite for any meaningful software project, and they should be embedded into any software engineer's brain.
 
 ## Personal Experience
 
