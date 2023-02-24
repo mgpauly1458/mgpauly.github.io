@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Giving raw code the Boot"
 # All dates must be YYYY-MM-DD format!
-date: 2023-01-18
+date: 2023-02-23
 published: true
 labels:
   - Bootstrap
