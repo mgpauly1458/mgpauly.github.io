@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Giving raw code the Boot"
+title: "Giving Raw Code the Boot"
 # All dates must be YYYY-MM-DD format!
 date: 2023-02-23
 published: true
