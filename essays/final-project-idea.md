@@ -10,6 +10,9 @@ labels:
   - Meteor
 ---
 
+# RateMyClasses
+Authors: Maxwell Pauly, Danny Luu, Liliana Royer, Patrick Manuel
+
 # Overview
 
 ## The Problem
