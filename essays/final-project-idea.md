@@ -1,19 +1,14 @@
 ---
 layout: essay
 type: essay
-title: "Giving Raw Code the Boot"
+title: "Final Project Idea"
 # All dates must be YYYY-MM-DD format!
-date: 2023-02-23
+date: 2023-03-23
 published: true
 labels:
-  - Bootstrap
-  - UI Frameworks
-  - Efficiency
+  - Software Engineering
+  - Meteor
 ---
-
-<img width="200px" class="rounded float-start pe-4" src="../img/bootstrapLogo.png">
-
-*UI Frameworks are Amazing*
 
 # Overview
 
