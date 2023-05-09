@@ -13,18 +13,16 @@ labels:
 summary: "A web application, which allows students at the University of Hawaii to view all the available college clubs and event information."
 ---
 
-# Club Hub
-
-## Overview
+# Overview
 
 Part of the college experience is participating in extra curricular activities and clubs related to topics that interest you. Our web app is a one stop shop giving students the ability to view every club offering available at UH Manoa. Users can create an account, view and bookmark their favorite clubs, and see all planned club events. Club officers have special privileges and can edit their respective club, and create events for that club.
 
-## Deployment 
+# Deployment 
 
 [Club Hub (live-site)](https://club-hub.site)
 [GitHub Organization Page](https://github.com/mongo-mongoers)
 
-## User Guide
+# User Guide
 
 #### Club List Page
 
