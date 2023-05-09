@@ -20,13 +20,9 @@ Part of the college experience is participating in extra curricular activities a
 # Deployment 
 
 [Club Hub (live-site)](https://club-hub.site)
-
 <br/>
-
 [Project Page](https://mongo-mongoers.github.io/)
-
 <br/>
-
 [GitHub Organization Page](https://github.com/mongo-mongoers)
 
 # User Guide
