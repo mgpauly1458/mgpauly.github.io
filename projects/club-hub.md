@@ -25,7 +25,10 @@ Part of the college experience is participating in extra curricular activities a
 <br/>
 [GitHub Organization Page](https://github.com/mongo-mongoers)
 
-# User Guide
+# My Contributions
+I worked on the backend of this website and handled the deployment to digital ocean. The front end team members created templates for what the pages are supposed to look like. I created the MongoDB collections, Meteor schemas, server code that connected the page templates to the database. I wrote and tested the 'onHandle' functions for any form being submitted on all the pages. I ensured the database was being manipulated correctly at any given point in the website. I architected a clever way to create many-to-many relations by making a 'joint collection' between other collections. I initialized the database for the team during development, and ensured the deployed app was initialized. I created a digital ocean droplet, and deployed the web app using the 'mup' toolchain. I bought and setup a custom domain and secured our app using SSL encryption.
+
+# App Features
 
 #### Club List Page
 
@@ -73,7 +76,4 @@ The Events page allows officers to create events for the club that they are the 
 
 <img width="1280" alt="image" src="https://user-images.githubusercontent.com/74911365/234212417-321b4307-44d7-4771-8790-bcea169cf948.png">
 
-<br/>
 
-## My Contributions
-I worked on the backend of this website and handled the deployment to digital ocean. The front end team members created templates for what the pages are supposed to look like. I created the MongoDB collections, Meteor schemas, server code that connected the page templates to the database. I wrote and tested the 'onHandle' functions for any form being submitted on all the pages. I ensured the database was being manipulated correctly at any given point in the website. I architected a clever way to create many-to-many relations by making a 'joint collection' between other collections. I initialized the database for the team during development, and ensured the deployed app was initialized. I created a digital ocean droplet, and deployed the web app using the 'mup' toolchain. I bought and setup a custom domain and secured our app using SSL encryption.
