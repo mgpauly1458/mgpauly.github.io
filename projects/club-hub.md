@@ -17,58 +17,53 @@ summary: "A web application, which allows students at the University of Hawaii t
 
 ## Overview
 
-Part of the college experience is participating in extra curricular activities and clubs related to topics that interest you. Our is a one stop shop for students to view every club offering availa
+Part of the college experience is participating in extra curricular activities and clubs related to topics that interest you. Our web app is a one stop shop giving students the ability to view every club offering available at UH Manoa. Users can create an account, view and bookmark their favorite clubs, and see all planned club events. Club officers have special privileges and can edit their respective club, and create events for that club.
 
-Picture of the robot currently used for prototyping:
-<br>
-<img src="https://user-images.githubusercontent.com/74911365/155123497-79ac5871-d912-4ee8-9e1f-668debe898f1.png" style="width:500px;"/>
+## Deployment 
 
-## Robot Operating System (ROS)
+This is a link to the live site: [Club Hub (live-site)](https://club-hub.site)
 
-ROS is an open source robotics middleware suite and is the premier framework for robotic rapid prototyping. The [ROS wiki](https://www.ros.org/) is an outstanding resource to learn more so I won't go into detail here. The project uses ROS for the majority of the robot's communication between components and functionality. Each software developer on the project completed the [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials) and below is a demonstration of ROS nodes talking to one another and executing commands.
+## About Us
+### [GitHub Organization Page](https://github.com/mongo-mongoers)
 
+## User Guide
 
-<img src="https://user-images.githubusercontent.com/74911365/215602370-4be5e4c6-003c-4562-8e9f-1727dc4e03e1.png" style="width:1000px;"/>
-<!-- <video src="https://user-images.githubusercontent.com/74911365/154920396-d8579ff4-1784-4360-8b3e-b7f285558c4d.mp4"/>
- -->
+### Club List Page
 
+The Club List page is where you can view all of the clubs that are available at your university. To bookmark a club, click on the "Bookmark" button next to the club's name. Bookmarked clubs will appear in your Bookmarks page. You may also filter clubs by their respective topics.
 
-## Gazebo Simulation
-Gazebo is a suite of simulation software that communicates quite nicely with ROS. The team religiously uses gazebo to simulate all prototyped software and hardware dimensions before any fabrication takes place.
+<img width="1266" alt="image" src="https://user-images.githubusercontent.com/74911365/234210054-98752d0c-4ead-43f5-b401-f524f738a16b.png">
 
-A basic gazebo simulation with a turtlebot and obstacles. The turtlebot is using it's simulated laser scanner and a simple obstacle avoidance algorithm to wander around.
+### Bookmarks Page
 
-<img src="https://user-images.githubusercontent.com/74911365/155137434-49c81e47-bed8-485f-a7df-9dd46aa74114.png" style="width:1000px;"/>
+The Bookmarks page displays all of the clubs that you have bookmarked. To view the events for a bookmarked club, click on the club's name.
 
-## Simulating Rover Communication
-Below is an image of various ros nodes running, necessary to enable the ros network to communicate with the web based frontend. Here the pilot of the rover can pass data through the web browser, which is recieved through a web socket on a ros node. This is a simple integration test which merely displays the data passed over the browser.
+<img width="1265" alt="image" src="https://user-images.githubusercontent.com/74911365/234210152-e1136338-9c45-4d16-ab32-e4dfa2bd5ff7.png">
 
-<img src="https://user-images.githubusercontent.com/74911365/215602528-64ee7324-53b2-4252-b495-4d9adfbabced.png" style="width:1000px;"/>
+### Events Page
 
+The Events page displays all of the upcoming events for the clubs that you have bookmarked. To view more information about an event, click on the event's title.
 
-## Web App Graphical User Interface (GUI)
-A GUI is needed to control the robot and subsequently compete in the URC competition. The stack begins with a simple web app which interfaces with the ROS network via a web socket. Commands are transferred wirelessly using 802.11 WiFi and the HTTP protocol. The web server was made using Node.js and Express (<a href="https://github.com/anotheruser1458/IC_protobot/blob/main/web_app/server.js">source</a>). The data is displayed to the operator using html/css/javascript (<a href="https://github.com/anotheruser1458/IC_protobot/tree/main/web_app/public/js">source</a>). 
-<!-- The video below shows a demo of the latest prototype where a video feed and three topics are displayed on the homepage. 
-<br>
-The latest GUI prototype can display video output, and topic data. The up and down arrows are pressed on the keyboard and which sends velocity commands to ROS, which can be seen at the bottom of the display.
-<br> -->
+<img width="1280" alt="image" src="https://user-images.githubusercontent.com/74911365/234212179-4b6dea97-7499-456c-be88-ddd8dff89a75.png">
 
-<img src="https://user-images.githubusercontent.com/74911365/215602445-fcd4c945-b702-40a0-b81f-17ec391188f2.png" style="width:1000px;"/>
+### Club Info Page
 
-<!-- <video src="https://user-images.githubusercontent.com/74911365/154946249-04c9510b-1193-423e-aa36-a8eb3eec0615.mp4"/>
- -->
+The Club Info page displays more information about a specific club. This information includes the club's description, meeting times, and contact information.
 
-<!-- An earlier prototype, text input in an html form is sent to the ROS network and broadcasted by a node.
+<img width="1267" alt="image" src="https://user-images.githubusercontent.com/74911365/234210905-d074e690-a898-4533-a28c-c474f83fd700.png">
 
- -->
-<!-- <video src="https://user-images.githubusercontent.com/74911365/140019513-80895195-2fa0-49e1-8030-edcdf03711ba.mp4"/>
- -->
+### Edit Club Page
 
-## Motor Encoders
+The Edit Club page allows you to edit the information for a club that you are the officer of. This information includes the club's name, description, meeting times, and contact information.
 
-The robot uses ten motors: six for forward and backward acceleration and four for steering the wheels left and right. I used [Roboclaw](https://www.pololu.com/product/3284) motor encoders which communicate over serial ports. 
+<img width="1280" alt="image" src="https://user-images.githubusercontent.com/74911365/234210706-6145f99e-e694-4c74-8791-5a3a72bd223f.png">
 
+### Create Events Page (for officers)
 
-A 'roboclaw' object was created using C++ which acts as the bridge between the linux serial ports and the actual encoders ([source](https://github.com/anotheruser1458/IC_protobot/blob/main/catkin_ws/src/protobot/src/protobot_control/src/roboclaw.cpp)). This object is used by the ROS node ([source](https://github.com/anotheruser1458/IC_protobot/blob/main/catkin_ws/src/protobot/src/protobot_control/src/protobot.cpp)) to properly send and recieve data and control when the wheels spin.
+The Events page allows officers to create events for the club that they are the officer of. This includes the event's title, date, time, location, and description.
 
-<!-- (video of ros sending and recieving data and turning the wheels) -->
+<img width="1280" alt="image" src="https://user-images.githubusercontent.com/74911365/234212417-321b4307-44d7-4771-8790-bcea169cf948.png">
+
+## My Contributions
+
+I worked on the backend of this website and handled the deployment to digital ocean. The front end team members created templates for what the pages are supposed to look like. I created the MongoDB collections, Meteor schemas, server code that connected the page templates to the database. I wrote and tested the 'onHandle' functions for any form being submitted on all the pages. I ensured the database was being manipulated correctly at any given point in the website. I architected a clever way to create many-to-many relations by making a 'joint collection' between other collections. I initialized the database for the team during development, and ensured the deployed app was initialized. I created a digital ocean droplet, and deployed the web app using the 'mup' toolchain. I bought and setup a custom domain and secured our app using SSL encryption.
