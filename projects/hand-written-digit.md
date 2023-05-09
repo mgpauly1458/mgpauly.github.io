@@ -17,7 +17,7 @@ summary: "A neural network that can identify hand written digits that I trained,
 <img class="img-fluid" src="https://user-images.githubusercontent.com/74911365/215585524-09bed3ca-9d22-44a5-be5e-6390098f55c8.png">
 
 # Handwritten Digit TensorFlow Web Application
-This is a personal project which I am the sole contributor. It's creation involved training a TensorFlow neural network to recognize hand written digits, deploying the model to the cloud, and creating a frontend user interface which allows people to draw their own digits with a mouse and recieve the model's prediction of what digit it thinks it sees (0-9). 
+This is a personal project which I am the sole contributor. It's creation involved training a TensorFlow neural network to recognize hand written digits, deploying the model to the cloud, and creating a frontend user interface which allows people to draw their own digits with a mouse and receive the model's prediction of what digit it thinks it sees (0-9).
 
 # Contents
 - [Usage](#usage)
@@ -108,10 +108,10 @@ print('Interpretation: {}'.format(np.argmax(prediction)))
 
 
 # Deploy to Google Cloud Platform (GCP) Function
-The challenges associated with deploying a custom TensorFlow model to the cloud are discussed here. I started off with a trained and tested model. The end state is a RESTful Web API that can recieve HTTP POST requests containing image pixel data, and returns the model's prediction of what digit that pixel data represents.
+The challenges associated with deploying a custom TensorFlow model to the cloud are discussed here. I started off with a trained and tested model. The end state is a RESTful Web API that can receive HTTP POST requests containing image pixel data, and returns the model's prediction of what digit that pixel data represents.
 
 ## Saving the Weights in Cloud Storage
-Cloud functions are a great way to bring RESTful functionality to any small script or program. Cloud functions often only have access to small amounts of volatile memory, which can't store a saved model indefinitly. Everytime the function's memory resets (which happens during periods of inactivity) the model needs to be recreated. To achieve this, the weights of the model needed to be saved and stored in non-volatile memory (Google Cloud Storage). This allowed the function to initialize itself by downloading the weights and creating the model after every time the function memory reset.
+Cloud functions are a great way to bring RESTful functionality to any small script or program. Cloud functions often only have access to small amounts of volatile memory, which can't store a saved model indefinitely. Everytime the function's memory resets (which happens during periods of inactivity) the model needs to be recreated. To achieve this, the weights of the model needed to be saved and stored in non-volatile memory (Google Cloud Storage). This allowed the function to initialize itself by downloading the weights and creating the model after every time the function memory reset.
 
 The weights saved in a Google Cloud Storage Bucket.
 ![image](https://user-images.githubusercontent.com/74911365/155038387-c4bcfcc0-446b-4a42-8d76-48c439bab87a.png)
@@ -266,7 +266,7 @@ function saveImage() {
     postImageData(dataURI)
 }
 ```
-Using a jQuery, the base64 data is sent back to the webserver for further processing. (Note, the reason this had to be done in the browser and not a seperate javascript file is because Django requires a csrf_token to be passed during all post requests. Here the django template system replaces the {{ csrf_token }} with the actual token, which is necessary for the request to successfully complete.
+Using a jQuery, the base64 data is sent back to the webserver for further processing. (Note, the reason this had to be done in the browser and not a separate javascript file is because Django requires a csrf_token to be passed during all post requests. Here the django template system replaces the {{ csrf_token }} with the actual token, which is necessary for the request to successfully complete.
 
 ```javascript
 function postImageData(uri) {
@@ -313,7 +313,7 @@ The image is resized, read into memory as an np array, inverted, and sent to the
         return render(request, 'home.html',{'prediction':prediction})
     return render(request, 'home.html',{})
 ```
-The souce code for all the functions used are located in <strong><em>pages/utils.py</em></strong>
+The source code for all the functions used are located in <strong><em>pages/utils.py</em></strong>
  which do basically the same thing as the <strong><em>tfTest/loadModelTest.py</em></strong>
 functions discussed earlier.
 

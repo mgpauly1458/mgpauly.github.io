@@ -29,7 +29,7 @@ Streamlining the process of searching for courses and looking up professors' rat
 
 To create an efficient and user-friendly platform, we propose the following mockup pages:
 
-- New user goes to the landing page, creates an account, gets directed to profile/myclasses page where they can click on a class availability tab, then add classes to their profile whilst the class also provides a link to the professors rating on ratemyprofessor.
+- New user goes to the landing page, creates an account, gets directed to profile/myclasses page where they can click on a class availability tab, then add classes to their profile whilst the class also provides a link to the professors rating on ratemyprofessor.com.
 
 ## Pages:
 

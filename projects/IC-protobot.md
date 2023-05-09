@@ -10,7 +10,7 @@ labels:
   - Roslib.js
   - Express.js
   - React
-summary: "I was on a team (Robotic Space Exploration Team) that made a rover as an entry to the University Rover Challenge. I was on the Instrumentation & Control team and helped them design and implement all aspects of their frontend interface and frontend software to remotely contorl the rover."
+summary: "I was on a team (Robotic Space Exploration Team) that made a rover as an entry to the University Rover Challenge. I was on the Instrumentation & Control team and helped them design and implement all aspects of their frontend interface and frontend software to remotely control the rover."
 ---
 
 <!-- <img class="img-fluid" src="../img/cotton/cotton-header.png">
@@ -43,7 +43,7 @@ A basic gazebo simulation with a turtlebot and obstacles. The turtlebot is using
 <img src="https://user-images.githubusercontent.com/74911365/155137434-49c81e47-bed8-485f-a7df-9dd46aa74114.png" style="width:1000px;"/>
 
 ## Simulating Rover Communication
-Below is an image of various ros nodes running, necessary to enable the ros network to communicate with the web based frontend. Here the pilot of the rover can pass data through the web browser, which is recieved through a web socket on a ros node. This is a simple integration test which merely displays the data passed over the browser.
+Below is an image of various ros nodes running, necessary to enable the ros network to communicate with the web based frontend. Here the pilot of the rover can pass data through the web browser, which is received through a web socket on a ros node. This is a simple integration test which merely displays the data passed over the browser.
 
 <img src="https://user-images.githubusercontent.com/74911365/215602528-64ee7324-53b2-4252-b495-4d9adfbabced.png" style="width:1000px;"/>
 
@@ -60,7 +60,7 @@ The latest GUI prototype can display video output, and topic data. The up and do
 <!-- <video src="https://user-images.githubusercontent.com/74911365/154946249-04c9510b-1193-423e-aa36-a8eb3eec0615.mp4"/>
  -->
 
-<!-- An earlier prototype, text input in an html form is sent to the ROS network and broadcasted by a node.
+<!-- An earlier prototype, text input in an html form is sent to the ROS network and broadcast by a node.
 
  -->
 <!-- <video src="https://user-images.githubusercontent.com/74911365/140019513-80895195-2fa0-49e1-8030-edcdf03711ba.mp4"/>
@@ -71,6 +71,6 @@ The latest GUI prototype can display video output, and topic data. The up and do
 The robot uses ten motors: six for forward and backward acceleration and four for steering the wheels left and right. I used [Roboclaw](https://www.pololu.com/product/3284) motor encoders which communicate over serial ports. 
 
 
-A 'roboclaw' object was created using C++ which acts as the bridge between the linux serial ports and the actual encoders ([source](https://github.com/anotheruser1458/IC_protobot/blob/main/catkin_ws/src/protobot/src/protobot_control/src/roboclaw.cpp)). This object is used by the ROS node ([source](https://github.com/anotheruser1458/IC_protobot/blob/main/catkin_ws/src/protobot/src/protobot_control/src/protobot.cpp)) to properly send and recieve data and control when the wheels spin.
+A 'roboclaw' object was created using C++ which acts as the bridge between the linux serial ports and the actual encoders ([source](https://github.com/anotheruser1458/IC_protobot/blob/main/catkin_ws/src/protobot/src/protobot_control/src/roboclaw.cpp)). This object is used by the ROS node ([source](https://github.com/anotheruser1458/IC_protobot/blob/main/catkin_ws/src/protobot/src/protobot_control/src/protobot.cpp)) to properly send and receieve data and control when the wheels spin.
 
-<!-- (video of ros sending and recieving data and turning the wheels) -->
+<!-- (video of ros sending and receiving data and turning the wheels) -->
